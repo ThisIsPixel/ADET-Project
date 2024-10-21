@@ -54,7 +54,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
               ElevatedButton(
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
-                    // Handle password reset logic here
+
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(content: Text('Password reset email sent')),
                     );
